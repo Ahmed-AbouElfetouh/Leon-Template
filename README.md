@@ -7,7 +7,7 @@
 
 #  HTML and CSS Template
 
-A Fully Responsive Template by Using Mediea Queries, you can scroll smoothly to any section pure CSS. 
+A Fully Responsive Template by Using Media Queries, you can scroll smoothly to any section pure CSS. 
 
 ## For Live Preview [Click Here](https://ahmed-abouelfetouh.github.io/leon-template/)
 ## Project Screenshot
