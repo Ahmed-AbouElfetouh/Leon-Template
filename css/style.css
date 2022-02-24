@@ -422,7 +422,7 @@ header .links ul li a:hover{
     margin-bottom: 0;
 }
 .contact .contact-info a {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     letter-spacing: -3px;
     color: var(--mainColor);
