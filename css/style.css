@@ -198,7 +198,9 @@ header .links ul li a:hover{
     text-align: center;
 }
 @media (max-width: 575px) {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    .features .container {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
 }
 .features .feat {
     padding: 20px;
@@ -227,9 +229,14 @@ header .links ul li a:hover{
 }
 .services .services-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 20px 20px;
     margin-top: 80px;
+}
+@media (max-width: 575px) {
+    .services .services-content  {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
 }
 .services .services-content .col .serv{
     margin-bottom: 30px;
@@ -422,11 +429,11 @@ header .links ul li a:hover{
     margin-bottom: 0;
 }
 .contact .contact-info a {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     letter-spacing: -3px;
     color: var(--mainColor);
-    margin: 5px 0 0 5px;
+    margin: 5px 0 0 10px;
 }
 .contact .contact-social {
     margin-top: 30px;
